@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
+import styles from '@/components/team/NewTeamForm.module.scss'
+
 function NewTeamForm() {
   const navigate = useNavigate()
   const placeholder = '111'
@@ -20,9 +22,11 @@ function NewTeamForm() {
 
   return (
     <div>
-      <h2>NewTeamForm</h2>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="teamId">Team ID</label>
+      <h3>NewTeamForm</h3>
+      <form onSubmit={handleSubmit} className={styles.formContainer}>
+        <label htmlFor="teamId" className={styles.teamIdLabel}>
+          Team ID
+        </label>
         <input
           type="number"
           id="teamId"
@@ -30,6 +34,7 @@ function NewTeamForm() {
           placeholder={placeholder}
           onChange={handleInputChange}
           value={teamId}
+          className={styles.teamIdBtn}
         />
         <button type="submit">Submit</button>
       </form>

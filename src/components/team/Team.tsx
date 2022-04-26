@@ -5,7 +5,7 @@ function Team() {
   const params = useParams()
   return (
     <div>
-      <h2>Team {params.teamId}</h2>
+      <h3>Team {params.teamId}</h3>
     </div>
   )
 }

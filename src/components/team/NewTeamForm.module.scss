@@ -1,0 +1,17 @@
+@use '@/config/variables' as v;
+
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.teamIdLabel {
+  font-size: v.$paragraph-size;
+}
+
+.teamIdBtn {
+  -webkit-appearance: none;
+  margin: 0 10px;
+  -moz-appearance: textfield;
+}

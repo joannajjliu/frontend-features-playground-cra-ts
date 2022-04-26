@@ -14,4 +14,6 @@ React with TS skeleton is created using [Create React App](https://github.com/fa
 - [x] Add tests and coverage
 - [ ] React Context (timezone, and language)
 - [ ] Redux (frequent state changes across files)
+- [ ] Cypress E2E tests
+- [ ] Jenkins pipeline, for updating test coverage badges
 - [ ] Infinite scroll?
