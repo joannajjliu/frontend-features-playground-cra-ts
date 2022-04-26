@@ -1,0 +1,16 @@
+{
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "trailingComma": "all",
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "importOrder": [
+    "^@core/(.*)$",
+    "^@server/(.*)$",
+    "^@ui/(.*)$",
+    "^@testing-library/(.*)$",
+    "^@/(.*)$",
+    "^./.*$"
+  ]
+}
