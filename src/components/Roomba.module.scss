@@ -1,0 +1,28 @@
+.Roomba {
+  margin-top: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.Grid {
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: row;
+}
+
+.Column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.Cell {
+  flex: 1;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 2em;
+}

@@ -12,7 +12,7 @@ React with TS skeleton is created using [Create React App](https://github.com/fa
 - [x] Add [import rules](https://github.com/trivago/prettier-plugin-sort-imports)
 - [x] Add [webpack aliasing](https://adrianmanduc.medium.com/path-aliases-in-create-react-app-v4-without-ejecting-3d7ac5f2c86a)
 - [x] Add tests and coverage
-- [ ] React Context (timezone, and language)
+- [ ] [React Context (timezone, and language)](https://codesandbox.io/s/react-context-4c174?file=/src/index.js:126-177)
 - [ ] Redux (frequent state changes across files)
 - [ ] Cypress E2E tests
 - [ ] Jenkins pipeline, for updating test coverage badges

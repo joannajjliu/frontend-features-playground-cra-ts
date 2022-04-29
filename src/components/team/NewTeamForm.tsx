@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
+import LanguageSwitcher from '@/components/LanguageSwitcher'
 import styles from '@/components/team/NewTeamForm.module.scss'
 
 function NewTeamForm() {
@@ -23,6 +24,7 @@ function NewTeamForm() {
   return (
     <div>
       <h3>NewTeamForm</h3>
+      <LanguageSwitcher />
       <form onSubmit={handleSubmit} className={styles.formContainer}>
         <label htmlFor="teamId" className={styles.teamIdLabel}>
           Team ID
